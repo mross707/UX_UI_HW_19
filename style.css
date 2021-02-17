@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,700&display=swap');
+
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ li{
+     list-style-type: none;
+ }
+
+ header{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px 10%;
+     justify-content: space-between;
+     background-color: white;
+     padding: 1rem;
+ }
+
+ nav ul{
+     display: flex;
+     flex-direction: row;
+ }
+
+ nav ul li{
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+
+ nav ul li a{
+     color:white;
+     display: block;
+     padding: 10px 20px;
+     border-radius: 20px;
+ }
+
+ .logo{
+     padding-left: 4rem;
+     padding-top: 15px;
+ }
+
+ .cta1{
+     background-color: firebrick;
+     transition-duration: .5s;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+ }
+
+ .cta1:hover{
+     background-color:maroon;
+     color:white;
+ }
+
+ .cta2{
+     background-color: firebrick;
+     transition-duration: .5s;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+ }
+
+ .cta2:hover{
+    background-color:maroon;
+    color:white;
+}
+
+ .cta3{
+     background-color: firebrick;
+     transition-duration: .5s;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+ }
+
+ .cta3:hover{
+    background-color:maroon;
+    color:white;
+}
+
+ .cta4{
+     background-color: firebrick;
+     transition-duration: .5s;
+     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+ }
+
+ .cta4:hover{
+    background-color:maroon;
+    color:white;
+}
+
+.intro{
+    margin-top: 15px;
+    display:inline-block;
+    background-color: #3477DC; width: 100%; height: 530px; opacity: 70%;
+}
+
+h4{
+    font-size: 45px;
+    padding-top: 25px;
+    padding-left: 50px;
+    color: white;
+}
+
+h1{
+    font-size: 55px;
+    padding-top: 0px;
+    padding-left: 50px;
+    color: white;
+}
+
+span{
+    color: maroon;
+}
+
+p{
+    font-size: 20px;
+    padding-left: 50px;
+    line-height: 1.2;
+}
+
+.btn{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.btn button:hover{
+    background-color: maroon;
+    border: 1px solid maroon;
+}
+.btn button{
+    padding: 7px 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #F4851F;
+    border: 1px solid #F4851F;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    transition-duration: .5s;
+}
+
+.showcase{
+    padding-top: 75px;
+}
+
+h3{
+    color: #021859;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 35px;
+}
+
+.bottomrow{
+    display: flex;
+}
+
+.showcase img{
+    padding-top: 100px;
+    padding-left: 115px;
+    padding-bottom: 100px;
+}
+
+.screenchanges{
+    background-color:#D90B0B; width: 100%; height: 630px;
+    padding-left: none;
+}
+
+.middle p{
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.screenchanges img{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+}
+
+.logo2{
+    padding-left: 4rem;
+    padding-bottom: 15px;
+}
