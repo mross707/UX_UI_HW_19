@@ -164,15 +164,16 @@ h3{
     padding-left: none;
 }
 
-.middle p{
-    text-align: right;
-    padding-top: 35px;
-    padding-right: 25px;
+h2{
+    display: flex;
+    color: white;
+    padding-top: 25px;
+    align-items: center;
 }
 
-.screenchanges img{
-    padding-left: 25px;
-    padding-top: 20px;
+.screenanimations img{
+    padding-left: 500px;
+    padding-top: 5px;
 }
 
 footer{
@@ -188,4 +189,22 @@ footer{
 .logo2{
     padding-left: 4rem;
     padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 600){
+    body{
+        display: flex grid;
+        flex-direction: column;
+        margin: 0px 5px;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "work"
+        "about me"
+        "linkedin"
+        "behance"
+        ;
+
+    }
+    
 }
